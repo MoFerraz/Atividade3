@@ -31,8 +31,21 @@ namespace Atividade3
                 Console.ReadKey();
                 Environment.Exit(0);
             }
+            
+            else if (valorProduto < 100 && desconto > 10%)
+            {   Console.WriteLine(" O valor do desconto deve ser menor que 10%");
 
-            else if (valorProduto < 100 && desconto > 10)
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
+
+            else if (valorProduto < 200 && desconto > 20%)
+            {
+                Console.WriteLine(" O valor do desconto deve ser menor que 10%");
+
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
 
         }
     }
